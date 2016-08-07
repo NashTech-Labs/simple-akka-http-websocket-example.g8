@@ -1,0 +1,25 @@
+New log file opened at Sun Aug 07 19:55:45 IST 2016 by 27079@ayush-Lenovo-Z51-70
+Taking next connection to: 38912
+New client attempting to connect on port: 40842-38912
+  Address = /127.0.1.1:38912
+This client on port 40842 has uuid 0c14698e-20a2-4aa3-93f1-f55e6a7e18c8 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-0c14698e-20a2-4aa3-93f1-f55e6a7e18c8
+Taking next connection to: 38912
+New client attempting to connect on port: 40844-38912
+  Address = /127.0.1.1:38912
+Handshake exception on socket: 40844
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 38912
+New client attempting to connect on port: 40846-38912
+  Address = /127.0.1.1:38912
+This client on port 40846 has uuid ee58e805-4ab1-4776-b7e7-2da62fbdf3cf configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-0c14698e-20a2-4aa3-93f1-f55e6a7e18c8, activator-ee58e805-4ab1-4776-b7e7-2da62fbdf3cf
+Taking next connection to: 38912
